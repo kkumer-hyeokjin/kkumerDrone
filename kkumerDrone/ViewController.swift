@@ -37,9 +37,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         mapView.showsUserLocation = true
         
         // 위도, 경도 가져오기
-        let coor = locationManager.location?.coordinate
-        var latitude = coor?.latitude
-        var longitude = coor?.longitude
+//        let coor = locationManager.location?.coordinate
+//        var latitude = coor?.latitude
+//        var longitude = coor?.longitude
         
         txtField.backgroundColor = UIColor.white
     }
